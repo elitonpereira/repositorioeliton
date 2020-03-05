@@ -1,3 +1,6 @@
+# este script faz conversão de imagens
+#
+#Autor: Eliton Melo
 
 #!/bin/bash
 cd /home/aluno/Downloads/imagens-livros
