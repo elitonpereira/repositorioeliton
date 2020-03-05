@@ -3,6 +3,7 @@
 #Autor: Eliton Melo
 
 #!/bin/bash
+echo " iniciando script"
 cd /home/aluno/Downloads/imagens-livros
 for imagem in *.jpg
 do
@@ -11,4 +12,4 @@ do
 	convert $imagem $img_sem_ext.png
 
 done
-
+echo "finalizando script"
