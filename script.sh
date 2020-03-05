@@ -1,9 +1,11 @@
 
 #!/bin/bash
+cd /home/aluno/Downloads/imagens-livros
+for imagem in *.jpg
+do
+	echo $imagem
+	img_sem_ext=$(ls $imagem | awk -F. '{print $1}')
+	convert $imagem $img_sem_ext.png
 
-unzip imagens-livros.zip 
-cd imagens-livros
-convert *.jpg *.png
-mkdir new
-mv *png new
-zip -r new.zip new/
+done
+
