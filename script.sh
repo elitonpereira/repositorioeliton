@@ -17,3 +17,6 @@ done
 	echo "Finalizado! Até a próxima conversão!"
 
 echo "finalizando script"
+
+#O lindão esteve aquiiiiii
+
